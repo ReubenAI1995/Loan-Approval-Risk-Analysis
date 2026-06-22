@@ -1,0 +1,98 @@
+# Loan Approval Risk Analysis
+
+## Project Overview
+
+This project analyzes 4,269 loan applications to identify the key factors influencing loan approval decisions. The goal was to develop a structured, data-driven approval framework that improves consistency, fairness, and operational efficiency while maintaining appropriate risk controls.
+
+Using exploratory data analysis, feature importance modeling, and risk segmentation techniques, the analysis identified credit score as the strongest predictor of approval outcomes.
+
+## Business Problem
+
+Financial institutions often face challenges with inconsistent lending decisions, lost revenue opportunities, and increased risk exposure.
+
+This project evaluates which applicant characteristics have the greatest impact on approval decisions and proposes a standardized approval framework based on measurable risk indicators.
+
+## Dataset
+
+Source: Kaggle Loan Approval Dataset
+
+* 4,269 loan applications
+* 13 applicant and loan-related variables
+* 62.2% approval rate
+* Credit score range: 300–900
+* No missing values
+
+## Tools Used
+
+* Python
+* Pandas
+* Jupyter Notebook
+* Matplotlib
+* Exploratory Data Analysis (EDA)
+* Feature Importance Analysis
+
+## Analysis Performed
+
+* Data cleaning and validation
+* Exploratory data analysis
+* Approval rate comparisons
+* Credit score segmentation
+* Feature importance evaluation
+* Risk-tier framework development
+
+## Key Findings
+
+### Credit Score Is the Strongest Predictor
+
+Credit score accounted for approximately 80.3% of approval outcomes.
+
+Approval rates increased significantly as credit scores improved:
+
+* 300–500: 10.7% approval rate
+* 751–900: 99.4% approval rate
+
+### Loan Term Influences Approval
+
+Shorter loan terms demonstrated higher approval rates, suggesting lower perceived lending risk.
+
+### Minimal Demographic Impact
+
+Variables such as education level and employment type had little impact on approval decisions and should not heavily influence lending outcomes.
+
+## Proposed Credit Risk Framework
+
+| Tier       | Credit Score | Decision             |
+| ---------- | ------------ | -------------------- |
+| High       | 750+         | Automatic Approval   |
+| Medium     | 650–749      | Conditional Approval |
+| Borderline | 600–649      | Manual Review        |
+| Low        | Below 600    | Reject               |
+
+## Business Impact
+
+The proposed framework can help organizations:
+
+* Improve approval consistency
+* Reduce subjective decision making
+* Increase operational efficiency
+* Reduce bias
+* Improve auditability
+* Support risk management
+
+## Skills Demonstrated
+
+* Data Analysis
+* Business Analytics
+* Risk Modeling
+* Feature Importance Analysis
+* Data Visualization
+* Decision Framework Design
+* Business Problem Solving
+
+## Author
+
+Aijay Reuben
+
+B.S. Business Administration – Decision Sciences
+
+San Francisco State University
